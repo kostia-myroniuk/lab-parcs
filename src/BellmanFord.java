@@ -11,7 +11,7 @@ public class BellmanFord implements AM {
     }
 
     public void run(AMInfo info) {
-        System.our.println("Enter number of threads: ");
+        System.out.println("Enter number of threads: ");
         Scanner sc = new Scanner(System.in);
         int num_of_threads = sc.nextInt();
         point[] P = new point[num_of_threads];
